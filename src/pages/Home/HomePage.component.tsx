@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment } from "react";
 import { NavBar } from "../../components";
 import { MainContent } from "../../components/";
 import { HomePageContainer } from "./HomePage.styles";
