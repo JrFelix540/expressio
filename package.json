@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
-  "version": "0.1.1",
-  "author": "Your Name",
-  "description": "React-TypeScript-Electron sample with Create React App and Electron Builder",
+  "name": "express-io",
+  "version": "0.1.0",
+  "author": "",
+  "description": "",
   "homepage": ".",
   "main": "build/electron/main.js",
   "private": true,
