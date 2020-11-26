@@ -14,7 +14,6 @@ export const DonutChartTrack = styled.circle`
 
 export const DonutChartIndicator = styled.circle`
   fill: transparent;
-  stroke: #33729c;
   stroke-dasharray: 0 10000;
   transition: stroke-dasharray 0.3s ease;
 `;

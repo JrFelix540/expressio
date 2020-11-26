@@ -35,6 +35,18 @@ const DonutChart: React.FC<DonutChartProps> = ({
   return (
     <Fragment>
       <DonutChartContainer width={size} height={size}>
+        <defs>
+          <linearGradient
+            id="primaryGradient"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="0%"
+          >
+            <stop offset="0%" stopColor="#33729C" />
+            <stop offset="100%" stopColor="#4CA6E3" />
+          </linearGradient>
+        </defs>
         <DonutChartTrack
           r={radius}
           cx={halfsize}
@@ -48,6 +60,7 @@ const DonutChart: React.FC<DonutChartProps> = ({
           cy={halfsize}
           transform={rotateval}
           style={indicatorstyle}
+          stroke="url(#primaryGradient)"
         />
         <DonutChartText
           className="donutchart-text"
